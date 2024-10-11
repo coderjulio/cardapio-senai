@@ -150,7 +150,6 @@ checkoutBtn.addEventListener("click", () => {
 const checkRestaurantOpen = ()=> {
     const date = new Date()
     const hours = date.getHours()
-    if(date.getDay(7))
     return hours >= 7 && hours < 18
 }
 
